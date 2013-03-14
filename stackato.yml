@@ -1,7 +1,10 @@
 name: flaskbars
 framework:
-  type: buildpack
+  type: python
+  runtime: python27
 services:
-  flaskbars-db: postgresql
+  ${name}-db: postgresql
 hooks:
   pre-running: python manage.py createDbSchema
+processes:
+  web: python web.py
