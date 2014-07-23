@@ -1,10 +1,5 @@
 name: flaskbars
-framework:
-  type: python
-  runtime: python27
 services:
   ${name}-db: postgresql
 hooks:
   pre-running: python manage.py createDbSchema
-processes:
-  web: python web.py
