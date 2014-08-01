@@ -1,5 +1,0 @@
-name: flaskbars
-services:
-  ${name}-db: postgresql
-hooks:
-  pre-running: python manage.py createDbSchema
