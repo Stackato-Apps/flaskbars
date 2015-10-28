@@ -1,5 +1,6 @@
 applications:
 - name: flaskbars
+  memory: 64M
   services:
     ${name}-db:
       type: postgresql
