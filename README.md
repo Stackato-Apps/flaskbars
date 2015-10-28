@@ -1,4 +1,4 @@
-Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, Stackato and Heroku
+Getting Started with Python, Flask, SQLAlchemy, JSON, JQuery, HPE Helion Stackato and Heroku
 =================================================================================
 
 Run Locally
@@ -25,7 +25,7 @@ Run Locally
     [http://localhost:5000](http://localhost:5000)
     
 
-Run on Stackato
+Run on HPE Helion Stackato
 ---------------
 
 1. Push the app
